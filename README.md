@@ -17,7 +17,7 @@ This CRM system is built using C language to store records of the customers. It 
 **1.	Including libraries:**
 This program includes two libraries:\
 i.	stdio.h: It provides variety of functions for input/output operations such as printf, scanf, fprintf, etc.\
-ii.	string.h: It provides a set of functions for manipulating strings such as strcmp, strlen, strcpy, etc.\
+ii.	string.h: It provides a set of functions for manipulating strings such as strcmp, strlen, strcpy, etc.
 	
 **2.	Defining structure:**
 “struct customer” defines a structure named “customer” which groups related data items of different data types into a single unit. Each data item is called member of structure. The different members of structure customer are given below:\
