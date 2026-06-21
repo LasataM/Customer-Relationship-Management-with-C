@@ -24,7 +24,7 @@ ii.	string.h: It provides a set of functions for manipulating strings such as st
 **2.	Defining structure:**
 “struct customer” defines a structure named “customer” which groups related data items of different data types into a single unit. Each data item is called member of structure. The different members of structure customer are given below:<br>
 i.	char n[35]: It defines a character array named “n” which can store up to 35 characters. It is used to store the customer’s name. <br>
-ii.	int a: It defines an integer variable named “a” which is used to store the number of products purchased by a customer.<br>
+ii.	int a: It defines an integer variable named “a” which is used to store the number of products purchased by a customer.\
 iii.	char pn[50][50]: It defines a two-dimensional character array named “pn” which is used to store the names of the products purchased by the customer. It allows the user to store up to 50 product names, each with a name up to 50 characters.<br>
 iv.	float p[50]: It defines a floating-point array named “p” with a length 50. It is used to store the price of each product purchased by the customer.<br>
 v.	char fb[150]: It defines a character array of length 150 to store feedback provided by the customer.<br>
