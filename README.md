@@ -38,8 +38,8 @@ The “customer.txt” file is opened in append mode, allowing users to insert r
 It opens the file in read mode. The while (fgets(line, sizeof(line), fp)) loop is used to read each line from the file and store it in character array line until the end of the file is reached. It reads and displays each line of the file i.e. all the records present in “customer.txt” file. 
 
 **6.	Searching records of a customer:**
-It opens “customer.txt” file in read mode. It asks the user to insert the name of the customer they want to search. The while loop reads each line from the file and stores it in character array line until fgets returns NULL.
-Inside the while loop, “strstr(line, "Customer Name:") != NULL” checks if the substring “Customer Name:” is present within the line of string and “strstr(line, sn) != NULL” checks if the substring “sn” (the name inserted by the user) is present within the same line of string. If the name inserted by the user is present in the file, found is set to 1 indicating that the customer has been found and the line containing the substrings gets printed.
+It opens “customer.txt” file in read mode. It asks the user to insert the name of the customer they want to search. The while loop reads each line from the file and stores it in character array line until fgets returns NULL.\
+Inside the while loop, “strstr(line, "Customer Name:") != NULL” checks if the substring “Customer Name:” is present within the line of string and “strstr(line, sn) != NULL” checks if the substring “sn” (the name inserted by the user) is present within the same line of string. If the name inserted by the user is present in the file, found is set to 1 indicating that the customer has been found and the line containing the substrings gets printed.\
 Another while loop prints the remaining details of the customer until another line containing substring “Customer Name:” is encountered. However, if the name inserted by the user is not present in the file, a message i.e., “Record is not present” is displayed on the screen.
 
 **7.	Displaying total purchase amount and average amount of a customer:**
